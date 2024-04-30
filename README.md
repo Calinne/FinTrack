@@ -12,7 +12,7 @@ FinTrack is a web application designed to help individuals manage their finances
 
 ## Technologies Used
 -C#
--Figma
+- Lucidchart
 
 
 ## License
