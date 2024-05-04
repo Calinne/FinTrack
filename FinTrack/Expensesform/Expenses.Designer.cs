@@ -136,7 +136,7 @@
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(116, 164);
+            numericUpDown1.Location = new Point(100, 164);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(97, 27);
             numericUpDown1.TabIndex = 16;
@@ -144,7 +144,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(93, 166);
+            label1.Location = new Point(77, 166);
             label1.Name = "label1";
             label1.Size = new Size(17, 20);
             label1.TabIndex = 17;
