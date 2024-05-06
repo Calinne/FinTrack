@@ -9,14 +9,14 @@ namespace FinTrack.Incomeform
         {
             InitializeComponent();
 
-            // Attach event handlers to the buttons
+            
             overviewbtn.Click += Overviewbtn_Click;
             incomepagebtn.Click += Incomepagebtn_Click;
             expagebtn.Click += Expagebtn_Click;
             savpagebtn.Click += Savpagebtn_Click;
             okaybtn.Click += Okaybtn_Click;
 
-            // Initialize the ComboBox with default values
+           
             comboBox1.Items.AddRange(new string[] { "Salary", "Investment", "Other" });
         }
 

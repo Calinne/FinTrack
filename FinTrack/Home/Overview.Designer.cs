@@ -28,19 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Overview));
             incomebtn = new Button();
             expensesbtn = new Button();
             savingsbtn = new Button();
             historybtn = new Button();
             userName = new Label();
             pictureBox1 = new PictureBox();
-            settings = new PictureBox();
             welcometxt = new Label();
             myoverviewtxt = new Label();
             label1 = new Label();
+            settingsbtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)settings).BeginInit();
             SuspendLayout();
             // 
             // incomebtn
@@ -95,16 +93,6 @@
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
-            // settings
-            // 
-            settings.Image = (Image)resources.GetObject("settings.Image");
-            settings.Location = new Point(471, 12);
-            settings.Name = "settings";
-            settings.Size = new Size(33, 34);
-            settings.SizeMode = PictureBoxSizeMode.CenterImage;
-            settings.TabIndex = 8;
-            settings.TabStop = false;
-            // 
             // welcometxt
             // 
             welcometxt.AutoSize = true;
@@ -132,15 +120,24 @@
             label1.TabIndex = 11;
             label1.Text = "user";
             // 
+            // settingsbtn
+            // 
+            settingsbtn.Location = new Point(383, 12);
+            settingsbtn.Name = "settingsbtn";
+            settingsbtn.Size = new Size(108, 46);
+            settingsbtn.TabIndex = 12;
+            settingsbtn.Text = "Settings";
+            settingsbtn.UseVisualStyleBackColor = true;
+            // 
             // Overview
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(529, 508);
+            Controls.Add(settingsbtn);
             Controls.Add(label1);
             Controls.Add(myoverviewtxt);
             Controls.Add(welcometxt);
-            Controls.Add(settings);
             Controls.Add(pictureBox1);
             Controls.Add(userName);
             Controls.Add(historybtn);
@@ -150,7 +147,6 @@
             Name = "Overview";
             Text = "Overview";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)settings).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -163,9 +159,9 @@
         private Button historybtn;
         private Label userName;
         private PictureBox pictureBox1;
-        private PictureBox settings;
         private Label welcometxt;
         private Label myoverviewtxt;
         private Label label1;
+        private Button settingsbtn;
     }
 }

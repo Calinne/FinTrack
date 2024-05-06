@@ -1,4 +1,5 @@
 using FinTrack.Home;
+using FinTrack.NewFolder;
 
 namespace FinTrack
 {
@@ -13,7 +14,7 @@ namespace FinTrack
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Overview());
+            Application.Run(new Settings());
         }
     }
 }

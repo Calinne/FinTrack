@@ -29,29 +29,33 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            Name = new Label();
+            username = new Label();
             button1 = new Button();
             button2 = new Button();
+            updateprofilebtn = new Button();
+            deleteprofilebtn = new Button();
+            logoutbtn = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(168, 27);
+            label1.Location = new Point(151, 28);
             label1.Name = "label1";
-            label1.Size = new Size(170, 20);
+            label1.Size = new Size(157, 20);
             label1.TabIndex = 0;
-            label1.Text = "SETTINGS and SERVICES";
+            label1.Text = "SETTINGS && SERVICES";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // Name
+            // username
             // 
-            Name.AutoSize = true;
-            Name.Location = new Point(73, 96);
-            Name.Name = "Name";
-            Name.Size = new Size(49, 20);
-            Name.TabIndex = 1;
-            Name.Text = "Name";
+            username.AutoSize = true;
+            username.Location = new Point(73, 96);
+            username.Name = "username";
+            username.Size = new Size(49, 20);
+            username.TabIndex = 1;
+            username.Text = "Name";
             // 
             // button1
             // 
@@ -73,14 +77,54 @@
             button2.Text = "arrow back";
             button2.UseVisualStyleBackColor = true;
             // 
+            // updateprofilebtn
+            // 
+            updateprofilebtn.Location = new Point(85, 210);
+            updateprofilebtn.Name = "updateprofilebtn";
+            updateprofilebtn.Size = new Size(140, 29);
+            updateprofilebtn.TabIndex = 4;
+            updateprofilebtn.Text = "UPDATE PROFILE";
+            updateprofilebtn.UseVisualStyleBackColor = true;
+            // 
+            // deleteprofilebtn
+            // 
+            deleteprofilebtn.Location = new Point(85, 254);
+            deleteprofilebtn.Name = "deleteprofilebtn";
+            deleteprofilebtn.Size = new Size(140, 29);
+            deleteprofilebtn.TabIndex = 5;
+            deleteprofilebtn.Text = "DELETE PROFILE";
+            deleteprofilebtn.UseVisualStyleBackColor = true;
+            // 
+            // logoutbtn
+            // 
+            logoutbtn.Location = new Point(85, 298);
+            logoutbtn.Name = "logoutbtn";
+            logoutbtn.Size = new Size(140, 29);
+            logoutbtn.TabIndex = 6;
+            logoutbtn.Text = "LOG OUT";
+            logoutbtn.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(85, 430);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 7;
+            button3.Text = "regulations";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // Settings
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(490, 484);
+            Controls.Add(button3);
+            Controls.Add(logoutbtn);
+            Controls.Add(deleteprofilebtn);
+            Controls.Add(updateprofilebtn);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(Name);
+            Controls.Add(username);
             Controls.Add(label1);
             Name = "Settings";
             Text = "Settings";
@@ -91,8 +135,12 @@
         #endregion
 
         private Label label1;
-        private Label Name;
+        private Label username; // Updated identifier
         private Button button1;
         private Button button2;
+        private Button updateprofilebtn;
+        private Button deleteprofilebtn;
+        private Button logoutbtn;
+        private Button button3;
     }
 }

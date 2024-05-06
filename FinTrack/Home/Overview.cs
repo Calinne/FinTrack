@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinTrack.NewFolder;
+using System;
 using System.Windows.Forms;
 
 namespace FinTrack.Home
@@ -26,26 +27,28 @@ namespace FinTrack.Home
 
         private void Expensesbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Expenses Button Clicked");
-            // Implement the opening of the Expenses Form or other related functionality
+            // Open Expenses Form, adjusted for the correct namespace
+            FinTrack.Expenses.Expenses expensesForm = new FinTrack.Expenses.Expenses();
+            expensesForm.Show();
         }
 
         private void Savingsbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Savings Button Clicked");
             // Implement the opening of the Savings Form or other related functionality
+            MessageBox.Show("Savings Button Clicked");
         }
 
         private void Historybtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("History Button Clicked");
             // Implement the opening of the History Form or other related functionality
+            MessageBox.Show("History Button Clicked");
         }
 
         private void Settings_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Settings Icon Clicked");
-            // Implement the opening of the Settings Form or other related functionality
+            // Open Settings Form, adjusted for correct namespace
+            FinTrack.NewFolder.Settings settingsForm = new FinTrack.NewFolder.Settings();
+            settingsForm.Show();
         }
     }
 }
