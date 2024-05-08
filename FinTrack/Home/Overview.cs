@@ -28,7 +28,7 @@ namespace FinTrack.Home
         private void Expensesbtn_Click(object sender, EventArgs e)
         {
             // Open Expenses Form, adjusted for the correct namespace
-            FinTrack.Expenses.Expenses expensesForm = new FinTrack.Expenses.Expenses();
+            FinTrack.Expensesform.Expenses expensesForm = new FinTrack.Expensesform.Expenses();
             expensesForm.Show();
         }
 
