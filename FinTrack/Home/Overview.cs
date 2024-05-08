@@ -40,8 +40,8 @@ namespace FinTrack.Home
 
         private void Historybtn_Click(object sender, EventArgs e)
         {
-            // Implement the opening of the History Form or other related functionality
-            MessageBox.Show("History Button Clicked");
+            FinTrack History = new FinTrack.History();
+            History.Show();
         }
 
         private void Settings_Clicked(object sender, EventArgs e) // Changed the method name here
