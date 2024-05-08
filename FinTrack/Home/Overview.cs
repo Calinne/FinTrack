@@ -1,4 +1,4 @@
-﻿using FinTrack.NewFolder;
+using FinTrack.NewFolder;
 using System;
 using System.Windows.Forms;
 
@@ -15,7 +15,7 @@ namespace FinTrack.Home
             expensesbtn.Click += Expensesbtn_Click;
             savingsbtn.Click += Savingsbtn_Click;
             historybtn.Click += Historybtn_Click;
-            settings.Click += Settings_Click;
+            settings.Click += Settings_Clicked; // Changed the event handler name here
         }
 
         private void Incomebtn_Click(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace FinTrack.Home
             MessageBox.Show("History Button Clicked");
         }
 
-        private void Settings_Click(object sender, EventArgs e)
+        private void Settings_Clicked(object sender, EventArgs e) // Changed the method name here
         {
             // Open Settings Form, adjusted for correct namespace
             FinTrack.NewFolder.Settings settingsForm = new FinTrack.NewFolder.Settings();
