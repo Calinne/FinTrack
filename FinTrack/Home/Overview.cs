@@ -40,8 +40,8 @@ namespace FinTrack.Home
 
         private void Historybtn_Click(object sender, EventArgs e)
         {
-            FinTrack History = new FinTrack.History();
-            History.Show();
+             History historyForm = new History(); // Instantiate the History form
+            historyForm.Show();
         }
 
         private void Settings_Clicked(object sender, EventArgs e) // Changed the method name here
