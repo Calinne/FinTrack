@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace caliprideproj
+namespace FinTrack
 {
     public partial class History : Form
     {
