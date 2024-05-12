@@ -1,5 +1,5 @@
 ﻿
-namespace caliprideproj
+namespace FinTrack
 {
     partial class M_Page
     {

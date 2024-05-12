@@ -16,7 +16,6 @@ namespace FinTrack.Home
             expensesbtn.Click += Expensesbtn_Click;
             savingsbtn.Click += Savingsbtn_Click;
             historybtn.Click += Historybtn_Click;
-            settingsbtn.Click += Settings_Click;
             settingsbtn.Click += Settings_Click; // Changed the event handler name here
         }
 
