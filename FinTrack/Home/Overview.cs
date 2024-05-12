@@ -51,6 +51,7 @@ namespace FinTrack.Home
             // Open Settings Form, adjusted for correct namespace
             FinTrack.NewFolder.Settings settingsForm = new FinTrack.NewFolder.Settings();
             settingsForm.Show();
+
         }
     }
 }
