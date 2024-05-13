@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinTrack.Home;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -56,11 +57,24 @@ namespace FinTrack.Expensesform
 
         // Implement event handlers for other buttons if needed
         // For example, navigation to different forms/pages
-        private void Overviewbtn_Click(object sender, EventArgs e)
+
+        private void overviewbtn_Click_1(object sender, EventArgs e)
         {
-            // Code to navigate to the Overview page
+            this.Hide(); // Hides the current form
+            Overview overviewForm = new Overview();
+            overviewForm.Show(); // Shows the Overview form
+
+        }
+
+        private void incomepagebtn_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Hides the current form
+            Overview overviewForm = new Overview();
+            overviewForm.Show(); // Shows the Overview form
         }
 
         // ... additional event handlers for savpagebtn, expagebtn, and incomepagebtn
+
+
     }
 }

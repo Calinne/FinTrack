@@ -133,7 +133,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(529, 508);
+            ClientSize = new Size(542, 508);
             Controls.Add(settingsbtn);
             Controls.Add(label1);
             Controls.Add(myoverviewtxt);

@@ -72,6 +72,7 @@
             incomepagebtn.TabIndex = 5;
             incomepagebtn.Text = "INCOME";
             incomepagebtn.UseVisualStyleBackColor = true;
+            incomepagebtn.Click += incomepagebtn_Click;
             // 
             // overviewbtn
             // 
@@ -82,6 +83,7 @@
             overviewbtn.TabIndex = 4;
             overviewbtn.Text = "OVERVIEW";
             overviewbtn.UseVisualStyleBackColor = true;
+            overviewbtn.Click += overviewbtn_Click_1;
             // 
             // expenseslabel
             // 
